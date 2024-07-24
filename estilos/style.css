@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'boku no hero';
+    src: url('../fonte/Futura Display BQ Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --preto: #121212;
+    --vinho: #72000f;
+    --bege: #EBE0CE;
+}
+
+html {
+    box-sizing: border-box;
+ }
+
+ h1, h2, h3 {
+    font-family: 'boku no hero';
+ }
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--preto);
+}
+
+header img {
+    height: 5.313rem;
+    padding-left: 1.25rem;
+}
+
+#menu-mobile {
+    margin-right: 2.50rem;
+    color: var(--bege);
+    font-size: 36px;
+}
+
+/* Apresentação */
+
+.home-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0, 0.829)), url(../Imagens/background.jpeg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.home-background img {
+    max-width: 187.5px;
+    max-height: 233px;
+    width: auto;
+    height: auto;
+    margin: -50px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #FDF200;
+    text-shadow: #eb0012 1px 5px 0px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+}
+
+/* Rodízio */
+
+.rodizio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--vinho);
+}
+
+.rodizio h2 {
+    color: var(--bege);
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+    padding-top: 2.5rem;
+}
+
+.padrao-bege {
+    height: 11rem;
+    width: 12.5rem;
+    background-color: var(--bege);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    color: var(--vinho);
+}
+
+#img-individual {
+    height: 150px;
+    width: 150px;
+    background: url(../Imagens/rodizio/rodizio-individual.jpg) no-repeat center center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #72000f;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
