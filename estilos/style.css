@@ -226,3 +226,36 @@ h1 {
     background: url(../Imagens/combo/mirio.jpg) no-repeat center center;
     background-size: cover;
 }
+
+/* Poke */
+
+.degrade-vinho {
+    height: 7.5rem;
+    background: linear-gradient(#EBE0CE, #72000f );
+}
+
+.ajuste-misto {
+    font-size: 32px;
+}
+
+.ajuste-empanado {
+    font-size: 25px;
+}
+
+#img-misto {
+    background: url(../Imagens/Poke/salmão-misto.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-havaiano {
+    background: url(../Imagens/Poke/poke-havaiano.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-empanado {
+    background: url(../Imagens/Poke/poke-de-salmao-empanado.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* Temaki */
+
