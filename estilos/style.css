@@ -259,3 +259,138 @@ h1 {
 
 /* Temaki */
 
+.ajuste-philadelphia {
+    font-size: 32px;
+}
+
+#img-skin {
+    background: url(../Imagens/temaki/temaki-skin.avif) no-repeat center center;
+    background-size: cover;
+}
+
+#img-philadelphia {
+    background: url(../Imagens/temaki/temaki-philadelfia.jpg) no-repeat center right;
+    background-size: cover;
+}
+
+#img-hot {
+    background: url(../Imagens/temaki/temaki-hot.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* Entradas */
+
+#img-sunomono {
+    background: url(../Imagens/entradas/sunomono.png) no-repeat center center;
+    background-size: cover;
+}
+
+#img-shimeji {
+    background: url(../Imagens/entradas/shimeji.jpg) no-repeat center right;
+    background-size: cover;
+}
+
+#img-guioza {
+    background: url(../Imagens/entradas/guioza.webp) no-repeat center center;
+    background-size: cover;
+}
+
+/* Pratos Quentes */
+
+#img-camarao {
+    background: url(../Imagens/pratos-quentes/camarão.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-salmao {
+    background: url(../Imagens/pratos-quentes/Salmao-grelhado-1.webp) no-repeat center center;
+    background-size: cover;
+}
+
+#img-harumaki {
+    background: url(../Imagens/pratos-quentes/harumaki.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* Bebidas */
+
+.ajuste-refri {
+    font-size: 32px;
+}
+
+#img-agua {
+    background: url(../Imagens/bebidas/agua.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-refri {
+    background: url(../Imagens/bebidas/refri.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-suco {
+    background: url(../Imagens/bebidas/suco.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* Sobremesa */
+
+.ajuste-hot-banana {
+    font-size: 32px;
+}
+
+.ajuste-uramaki {
+    font-size: 24px;
+}
+
+#img-ichigo {
+    background: url(../Imagens/sobremesas/ichigo.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-hot-banana {
+    background: url(../Imagens/sobremesas/hot-roll-de-banana-com.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-uramaki-morango {
+    background: url(../Imagens/sobremesas/uramaki-morango-com-nutella.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* Endereço */
+
+
+.endereco p {
+    color: var(--bege);
+    text-align: center;
+    line-height: 50px;
+    font-family: "boku no hero";
+    font-size: 1.25rem;
+
+}
+
+.endereco img {
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: -10px 5px 10px black ;
+} 
+
+/* Footer */
+
+footer {
+    background-color: var(--vinho);
+    text-align: center;
+}
+
+.div-footer img{
+    height: 30px;
+    padding: 50px 10px 10px 10px;
+}
+
+footer p {
+    color: var(--bege);
+    padding-bottom: 40px;
+    font-family: "boku no hero";
+}
