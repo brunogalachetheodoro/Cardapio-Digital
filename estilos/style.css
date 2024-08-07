@@ -71,14 +71,14 @@ h1 {
 
 /* Rodízio */
 
-.rodizio {
+.vinho {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--vinho);
 }
 
-.rodizio h2 {
+.vinho h2 {
     color: var(--bege);
     font-size: 2.5rem;
     padding-bottom: 5rem;
@@ -95,19 +95,134 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     color: var(--vinho);
 }
 
-#img-individual {
+.padrao-bege:hover {
+    height: 20rem;
+    transition: 0.7s;
+}
+
+.hidden-p {
+    font-size: 0px;
+    position: absolute;
+    height: 11rem;
+    width: 12.5rem;
+}
+
+.hidden-p:hover {
+    font-size: 12px;
+    height: 7rem;
+    padding-top: 200px;
+    transition: 0.7s;
+    visibility: visible;
+
+}
+
+.img-padrao-vinho {
     height: 150px;
     width: 150px;
-    background: url(../Imagens/rodizio/rodizio-individual.jpg) no-repeat center center;
-    background-size: cover;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     border: 3px solid #72000f;
     margin-top: -30px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
+}
+
+#img-individual {
+    background: url(../Imagens/rodizio/rodizio-individual.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-casal {
+    background: url(../Imagens/rodizio/rodizio-casal.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-familia{
+    background: url(../Imagens/rodizio/rodizo-familia.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* Combinados */
+
+.degrade-bege {
+    height: 7.5rem;
+    background: linear-gradient( #72000f, #EBE0CE );
+}
+
+.bege {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bege); 
+}
+
+.bege h2 {
+    color: var(--vinho);
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+    padding-top: 2.5rem;
+}
+
+.padrao-vinho {
+    height: 11rem;
+    width: 12.5rem;
+    background-color: var(--vinho);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    color: var(--bege);
+}
+
+.padrao-vinho:hover {
+    height: 20rem;
+    transition: 0.7s;
+}
+
+.img-padrao-bege {
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #EBE0CE;
+    margin-top: -30px;
+    margin-bottom: 10px; 
+}
+
+#img-all-might {
+    background: url(../Imagens/combo/all-might.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-midoriya {
+    background: url(../Imagens/combo/midoryia.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-todoroki {
+    background: url(../Imagens/combo/todoroki.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-bakugo {
+    background: url(../Imagens/combo/bakugo.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-uraraka {
+    background: url(../Imagens/combo/uraraka.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#img-mirio {
+    background: url(../Imagens/combo/mirio.jpg) no-repeat center center;
+    background-size: cover;
 }
