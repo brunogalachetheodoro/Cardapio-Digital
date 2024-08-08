@@ -55,7 +55,7 @@ header img {
     height: 50vh;
 }
 
-.home-background img {
+.home-background-img {
     max-width: 187.5px;
     max-height: 233px;
     width: auto;
@@ -69,6 +69,14 @@ h1 {
     text-shadow: #eb0012 1px 5px 0px;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #000;
+}
+
+.estilo-img-wpp {
+    height: 170px;
+    position: fixed;
+    float: left;
+    top: 84%;
+    filter: drop-shadow(10px 5px 5px black);
 }
 
 /* Rodízio */
