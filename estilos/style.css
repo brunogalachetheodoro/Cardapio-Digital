@@ -41,6 +41,8 @@ header img {
     font-size: 36px;
 }
 
+
+
 /* Apresentação */
 
 .home-background {
@@ -109,6 +111,7 @@ h1 {
     position: absolute;
     height: 11rem;
     width: 12.5rem;
+    line-height: 14px;
 }
 
 .hidden-p:hover {
@@ -117,7 +120,11 @@ h1 {
     padding-top: 200px;
     transition: 0.7s;
     visibility: visible;
+}
 
+.estilo-linha-rodizio {
+    font-weight: bolder;
+    line-height: 30px;
 }
 
 .img-padrao-vinho {
@@ -195,6 +202,11 @@ h1 {
     border: 3px solid #EBE0CE;
     margin-top: -30px;
     margin-bottom: 10px; 
+}
+
+.estilo-linha-combinado {
+    font-weight: bolder;
+    line-height: 0px;
 }
 
 #img-all-might {
