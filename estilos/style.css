@@ -21,6 +21,22 @@ html {
     font-family: 'boku no hero';
  }
 
+ .estilo-img-wpp {
+    height: 170px;
+    position: fixed;
+    float: left;
+    top: 79%;
+    filter: drop-shadow(10px 5px 5px black);
+}
+
+.responsivo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
 /* Header */
 
 header {
@@ -28,6 +44,8 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--preto);
+    width: 100%;
+    box-shadow: -10px 5px 10px black;
 }
 
 header img {
@@ -41,6 +59,9 @@ header img {
     font-size: 36px;
 }
 
+ul {
+    display: none;
+}
 
 
 /* Apresentação */
@@ -71,21 +92,13 @@ h1 {
     -webkit-text-stroke-color: #000;
 }
 
-.estilo-img-wpp {
-    height: 170px;
-    position: fixed;
-    float: left;
-    top: 84%;
-    filter: drop-shadow(10px 5px 5px black);
-}
+
 
 /* Rodízio */
 
 .vinho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: var(--vinho);
+    text-align: center;
 }
 
 .vinho h2 {
@@ -169,9 +182,7 @@ h1 {
 }
 
 .bege {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     background-color: var(--bege); 
 }
 

@@ -2,4 +2,78 @@
 
 /* Desktop */
 
+@media screen  and (min-width: 1023px){
 
+    .responsivo {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* Header */
+
+    header {
+        position: fixed;
+    }
+    
+    #menu-mobile {
+        display: none;
+    }
+
+    /* Apresentação */
+
+    .home-background {
+        height: 70vh;
+    }
+
+    .home-background-img {
+        max-width: 800px;
+        max-height: 450px;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    ul {
+        display: inline;
+        list-style: none;
+        flex-direction: row;
+        font-family: "boku no hero";
+        font-size: 22px;
+        padding: 0px 20px;
+    }
+
+    li {        
+        display: flex;
+        display: inline;
+        margin: 0px 8px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    /* Rodízio */
+
+    .vinho {
+        flex-direction: row;
+    }
+
+    /* Endereço */
+
+    .endereco {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .texto-endereco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 3.125rem;
+    }
+}
