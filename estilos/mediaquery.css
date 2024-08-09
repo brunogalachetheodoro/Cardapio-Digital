@@ -1,8 +1,95 @@
 @charset "UTF-8";
 
+/* Larger Desktops*/
+
+@media screen  and (min-width: 1280px) {
+
+    .responsivo {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #botao-up {
+        display: none;
+    }
+
+    /* Header */
+
+    header {
+        position: fixed;
+    }
+
+    #menu-mobile {
+        display: none;
+    }    
+
+    ul {
+        display: inline;
+        list-style: none;
+        flex-direction: row;
+        font-family: "boku no hero";
+        font-size: 22px;
+        padding: 0px 20px;
+    }
+
+    li {        
+        display: flex;
+        display: inline;
+        margin: 0px 8px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    /* Apresentação */
+
+    .home-background {
+        height: 70vh;
+    }
+
+    .home-background-img {
+        max-width: 800px;
+        max-height: 450px;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    /* Rodízio */
+
+    .vinho {
+        padding-bottom: 100px;
+    }
+
+    /* Combinados */
+
+    .bege {
+        padding-bottom: 100px;
+    }
+
+    /*Ajuste Opções Cardápio*/
+
+    .padrao-vinho {
+        margin: 0px 80px;
+    }
+
+    .padrao-bege {
+        margin: 0px 80px;
+    }
+
+    .padrao-combinado{
+        margin-bottom: 80px;
+    }
+
+}
+
 /* Desktop */
 
-@media screen  and (min-width: 1023px){
+@media screen  and (min-width: 1023px) and (max-width: 1280px){
 
     .responsivo {
         flex-direction: row;
@@ -19,19 +106,8 @@
         display: none;
     }
 
-    /* Apresentação */
-
-    .home-background {
-        height: 70vh;
-    }
-
-    .home-background-img {
-        max-width: 800px;
-        max-height: 450px;
-    }
-
-    h1 {
-        font-size: 7rem;
+    #botao-up {
+        display: none;
     }
 
     ul {
@@ -55,10 +131,65 @@
     }
 
 
+    /* Apresentação */
+
+    .home-background {
+        height: 70vh;
+    }
+
+    .home-background-img {
+        max-width: 800px;
+        max-height: 450px;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
     /* Rodízio */
 
     .vinho {
         flex-direction: row;
+    }
+
+
+    /* Endereço */
+
+    .endereco {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .texto-endereco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 3.125rem;
+    }
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1022px){ 
+
+    .responsivo {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* Apresentação */
+
+    .home-background {
+        height: 30vh;
+    }
+
+    .home-background-img {
+        max-width: 400px;
+        max-height: 225px;
+    }
+
+    h1 {
+        font-size: 5rem;
     }
 
     /* Endereço */
@@ -76,4 +207,6 @@
         align-items: flex-start;
         padding-left: 3.125rem;
     }
+    
+
 }

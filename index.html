@@ -11,29 +11,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    <header>
+    <header id="up">
         <img src="Imagens/site/sushi-hero-removebg-preview.png" alt="" class="logo-sushi">
-        <ul>
-            <li><a href="#rodizio">RODÍZIO EM CASA</a></li>
-            <li><a href="#combos">COMBOS</a></li>
-            <li><a href="#poke">POKE</a></li>
-            <li><a href="#temaki">TEMAKI</a> </li>
-            <li><a href="#entradas">ENTRADAS</a> </li>
-            <li><a href="#quentes">PRATOS QUENTES</a></li>
-            <li><a href="#bebidas">BEBIDAS</a></li>
-            <li><a href="#sobremesa">SOBREMESA</a></li>
-        </ul>
-        <nav id="menu-mobile">
-            <span class="material-symbols-outlined">
+        
+        <nav>
+            <span class="material-symbols-outlined" id="menu-mobile" onclick="clickMenu()">
                 menu
             </span>
+
+            <ul id="menuescondido">
+                <li><a href="#rodizio">RODÍZIO EM CASA</a></li>
+                <li><a href="#combos">COMBOS</a></li>
+                <li><a href="#poke">POKE</a></li>
+                <li><a href="#temaki">TEMAKI</a> </li>
+                <li><a href="#entradas">ENTRADAS</a> </li>
+                <li><a href="#quentes">PRATOS QUENTES</a></li>
+                <li><a href="#bebidas">BEBIDAS</a></li>
+                <li><a href="#sobremesa">SOBREMESA</a></li>
+            </ul>
         </nav>
     </header>
     <a href="#"><img class="estilo-img-wpp" src="Imagens/site/peca-whatsapp.png" alt=""></a>
+    
+    <section class="botao">
+        <a href="#up">
+            <span class="material-symbols-outlined" id="botao-up">
+                expand_circle_up
+                </span>
+        </a> 
+    </section>
+
     <main>
         <section class="home-background">
             <img class="home-background-img" src="Imagens/site/sushi-hero-removebg-preview.png" alt="">
             <h1>MY HERO SUSHI</h1>
+        
         </section>
 
         <section class="vinho" id="rodizio">
@@ -55,9 +67,9 @@
         <section class="bege" id="combos">
             <h2>COMBINADOS</h2>
             <div class="responsivo">
-                <div class="padrao-vinho"><div class="img-padrao-bege" id="img-all-might"></div><h3>ALL MIGHT</h3><p class="hidden-p"><span class="estilo-linha-combinado">Tudo Posso.</span> <br> Com esse combinado você pode tudo. Diversas opções para vários tipos de gosto. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$129,90</span></p></div>
-                <div class="padrao-vinho"><div class="img-padrao-bege" id="img-midoriya"></div><h3>MIDORIYA</h3><p class="hidden-p"><span class="estilo-linha-combinado">Nosso Protagonista.</span> <br> Impossível você não gostar desse combinado frito com Temaki. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$139,90</span></p></div>
-                <div class="padrao-vinho"><div class="img-padrao-bege" id="img-todoroki"></div><h3>TODOROKI</h3><p class="hidden-p"><span class="estilo-linha-combinado">Meio Quente. Meio Frio.</span> <br> Opções de crus e fritos no mesmo combinado. Para você que não deixa passar nada. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$109,90</span></p></div>
+                <div class="padrao-vinho padrao-combinado"><div class="img-padrao-bege" id="img-all-might"></div><h3>ALL MIGHT</h3><p class="hidden-p"><span class="estilo-linha-combinado">Tudo Posso.</span> <br> Com esse combinado você pode tudo. Diversas opções para vários tipos de gosto. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$129,90</span></p></div>
+                <div class="padrao-vinho padrao-combinado"><div class="img-padrao-bege" id="img-midoriya"></div><h3>MIDORIYA</h3><p class="hidden-p"><span class="estilo-linha-combinado">Nosso Protagonista.</span> <br> Impossível você não gostar desse combinado frito com Temaki. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$139,90</span></p></div>
+                <div class="padrao-vinho padrao-combinado"><div class="img-padrao-bege" id="img-todoroki"></div><h3>TODOROKI</h3><p class="hidden-p"><span class="estilo-linha-combinado">Meio Quente. Meio Frio.</span> <br> Opções de crus e fritos no mesmo combinado. Para você que não deixa passar nada. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$109,90</span></p></div>
             </div>
             <div class="responsivo">
                 <div class="padrao-vinho"><div class="img-padrao-bege" id="img-bakugo"></div><h3>BAKUGO</h3><p class="hidden-p"><span class="estilo-linha-combinado">Uma Explosão de Sabor em Cada Mordida.</span> <br> Os melhores hot holls em um só combinado. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$139,90</span></p></div>
@@ -185,7 +197,16 @@
             </div>
             <p>SUSHI NO HERO - 2024</p>
         </footer>
-
+        
+        <script>
+            function clickMenu() {
+                if ( menuescondido.style.display =='block') {
+                    menuescondido.style.display = 'none' 
+                } else {
+                    menuescondido.style.display = 'block'
+                }
+            }
+        </script>
     </main>
 
 </body>

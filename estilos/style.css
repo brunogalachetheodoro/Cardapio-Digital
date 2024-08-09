@@ -32,10 +32,32 @@ html {
 .responsivo {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
 }
 
+
+
+.botao-up {
+    position: fixed;
+    right: 30px;
+    top: 90%;
+}
+
+#botao-up {
+    position: fixed;
+    right: 30px;
+    top: 90%;
+    background-color: var(--vinho);
+    border-radius: 50%;
+    color: var(--bege);
+    font-size: 2.7rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--bege);
+}
 
 /* Header */
 
@@ -54,12 +76,19 @@ header img {
 }
 
 #menu-mobile {
+    cursor: pointer;
     margin-right: 2.50rem;
     color: var(--bege);
     font-size: 36px;
 }
 
-ul {
+nav {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+#menuescondido {
     display: none;
 }
 
