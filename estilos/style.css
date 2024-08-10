@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'boku no hero';
-    src: url('../fonte/Futura Display BQ Regular.otf') format('opentype');
+    src: url('../fonte/boku-no-hero.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,8 +35,6 @@ html {
     align-items: center;
 }
 
-
-
 .botao-up {
     position: fixed;
     right: 30px;
@@ -57,6 +55,13 @@ html {
 a {
     text-decoration: none;
     color: var(--bege);
+}
+
+.ver-mais {
+    font-size: 16px;
+    font-family: 'boku no hero';
+    display: flex;
+    align-items: center;
 }
 
 /* Header */
@@ -86,10 +91,29 @@ nav {
     display: flex;
     flex-direction: column;
     padding-right: 20px;
+
 }
 
 #menuescondido {
     display: none;
+    margin-top: 60px;
+}
+
+ul {
+    background-color: #121212;
+    position: absolute;
+    padding-top: 30px;
+    right: 0;
+    width: 200px;
+    text-align: right;
+    padding-right: 30px;
+    border-radius: 0px 0px 0px 40px;
+
+}
+
+
+li {
+    padding-bottom: 60px ;
 }
 
 
@@ -138,7 +162,7 @@ h1 {
 }
 
 .padrao-bege {
-    height: 11rem;
+    height: 13rem;
     width: 12.5rem;
     background-color: var(--bege);
     border-radius: 20px;
@@ -162,6 +186,7 @@ h1 {
     height: 11rem;
     width: 12.5rem;
     line-height: 14px;
+    margin-top: 10px;
 }
 
 .hidden-p:hover {
@@ -223,7 +248,7 @@ h1 {
 }
 
 .padrao-vinho {
-    height: 11rem;
+    height: 13rem;
     width: 12.5rem;
     background-color: var(--vinho);
     border-radius: 20px;
