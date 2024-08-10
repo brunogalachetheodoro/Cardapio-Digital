@@ -43,6 +43,10 @@
         color: white;
     }
 
+    .estilo-img-wpp {
+        height: 170px;
+        top: 79%;
+    }
 
     /* Apresentação */
 
@@ -130,6 +134,11 @@
         color: white;
     }
 
+    .estilo-img-wpp {
+        height: 170px;
+        top: 79%;
+    }
+
 
     /* Apresentação */
 
@@ -177,6 +186,11 @@
         justify-content: space-around;
     }
 
+    .estilo-img-wpp {
+        height: 170px;
+        top: 79%;
+    }
+    
     /* Apresentação */
 
     .home-background {

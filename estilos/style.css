@@ -22,10 +22,10 @@ html {
  }
 
  .estilo-img-wpp {
-    height: 170px;
+    height: 120px;
     position: fixed;
     float: left;
-    top: 79%;
+    top: 85%;
     filter: drop-shadow(10px 5px 5px black);
 }
 
@@ -55,6 +55,8 @@ html {
 a {
     text-decoration: none;
     color: var(--bege);
+    font-family: 'boku no hero';
+    font-size: 22px;
 }
 
 .ver-mais {
@@ -62,6 +64,7 @@ a {
     font-family: 'boku no hero';
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 /* Header */
@@ -107,13 +110,13 @@ ul {
     width: 200px;
     text-align: right;
     padding-right: 30px;
-    border-radius: 0px 0px 0px 40px;
+    border-radius: 0px 0px 0px 20px;
 
 }
 
 
 li {
-    padding-bottom: 60px ;
+    padding-bottom: 40px ;
 }
 
 
