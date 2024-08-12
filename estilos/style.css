@@ -91,12 +91,13 @@ header img {
 
 nav {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     padding-right: 20px;
 }
 
 #menuescondido {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
     margin-top: 60px;
 }
 

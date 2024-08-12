@@ -17,19 +17,32 @@
 
     header {
         position: fixed;
+        height: 10%;
     }
 
     #menu-mobile {
         display: none;
     }    
 
-    ul {
-        display: inline;
-        list-style: none;
+    #menuescondido {
+        visibility: visible;
+    }
+    
+    nav {
+        display: flex;
         flex-direction: row;
-        font-family: "boku no hero";
-        font-size: 22px;
-        padding: 0px 20px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+    ul {
+        background-color: #121212;
+        position: relative;
+        padding-top: 0px;
+        right: 0;
+        width: 100%;
+        text-align: right;
+        padding-right: 20px;
+        border-radius: 0px 0px 0px 0px;
     }
 
     li {        
@@ -105,25 +118,34 @@
 
     header {
         position: fixed;
+        height: 10%;
     }
-    
+
+    /* Menu */
     #menu-mobile {
         display: none;
     }
 
-   
+    #menuescondido {
+        visibility: visible;
+    }
 
-    #botao-up {
-        display: none;
+    nav {
+        display: flex;
+        flex-direction: row;
+        padding-right: 0px;
+        padding-bottom: 50px;
     }
 
     ul {
-        display: inline;
-        list-style: none;
-        flex-direction: row;
-        font-family: "boku no hero";
-        font-size: 22px;
-        padding: 0px 20px;
+        background-color: #121212;
+        position: relative;
+        padding-top: 0px;
+        right: 0;
+        width: 100%;
+        text-align: right;
+        padding-right: 20px;
+        border-radius: 0px 0px 0px 0px;
     }
 
     li {        
@@ -135,6 +157,12 @@
     a {
         text-decoration: none;
         color: white;
+    }
+
+    /*-----------------------------------------------------*/
+
+    #botao-up {
+        display: none;
     }
 
     .estilo-img-wpp {
