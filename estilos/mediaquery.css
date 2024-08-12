@@ -52,6 +52,7 @@
 
     .home-background {
         height: 70vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0, 0.829)), url(../Imagens/background.jpeg) no-repeat center top 25%;
     }
 
     .home-background-img {
@@ -109,6 +110,8 @@
     #menu-mobile {
         display: none;
     }
+
+   
 
     #botao-up {
         display: none;
