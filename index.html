@@ -303,7 +303,6 @@
         
         <script>
 
-
            function clickMenu() {
                 if ( menuescondido.style.display =='block') {
                     menuescondido.style.display = 'none' 
@@ -311,15 +310,16 @@
                     menuescondido.style.display = 'block'
                 }
             }
-
+            
             const menuLinks = document.querySelectorAll('#menuescondido a');
 
-    
+        
             menuLinks.forEach(link => {
                 link.addEventListener('click', () => {
                     menuescondido.style.display = 'none';
                 });
             });
+
         </script>
     </main>
 

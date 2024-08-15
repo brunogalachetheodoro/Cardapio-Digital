@@ -25,7 +25,7 @@
     }    
 
     #menuescondido {
-        visibility: visible;
+        display: block;
     }
     
     nav {
@@ -127,7 +127,7 @@
     }
 
     #menuescondido {
-        visibility: visible;
+        display: block;
     }
 
     nav {
