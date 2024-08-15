@@ -96,8 +96,8 @@ nav {
 }
 
 #menuescondido {
-    /* display: none; */
-    visibility: hidden;
+    display: none;
+    /*visibility: hidden;*/
     margin-top: 60px;
 }
 
