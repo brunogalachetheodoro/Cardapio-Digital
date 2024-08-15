@@ -61,6 +61,22 @@
         top: 79%;
     }
 
+    /* Endereço */
+
+    .endereco {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .texto-endereco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 3.125rem;
+    }
+
     /* Apresentação */
 
     .home-background {
