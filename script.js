@@ -34,3 +34,15 @@ revelar.reveal ('.img-topo', {
     distance: '90px',
     origin: 'top',
 })
+
+revelar.reveal ('.titulos-efeito', {
+    duration: 2000,
+    origin: 'left',
+    distance: '90px'
+})
+
+revelar.reveal ('.estilo-img-wpp', {
+    duration: 2000,
+    distance: '90px',
+    origin: 'bottom',
+})
