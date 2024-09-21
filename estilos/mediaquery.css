@@ -82,6 +82,7 @@
 
     .home-background {
         height: 70vh;
+        padding: 50px;
         background: linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0, 0.829)), url(../Imagens/background.jpeg) no-repeat center top 25%;
     }
 
@@ -194,6 +195,7 @@
         height: 70vh;
     }
 
+   
     .home-background-img {
         max-width: 800px;
         max-height: 450px;
@@ -225,6 +227,7 @@
         align-items: flex-start;
         padding-left: 3.125rem;
     }
+
 }
 
 @media screen  and (min-width: 768px) and (max-width: 1022px){ 

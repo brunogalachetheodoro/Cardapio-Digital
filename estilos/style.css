@@ -76,6 +76,7 @@ header {
     background-color: var(--preto);
     width: 100%;
     box-shadow: -10px 5px 10px black;
+    z-index: 10;
 }
 
 header img {
@@ -128,6 +129,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 50vh;
 }
 
@@ -137,10 +139,12 @@ li {
     width: auto;
     height: auto;
     margin: -50px;
+    padding-top: 10px;
 }
 
 h1 {
     font-size: 3.5rem;
+    padding-bottom: 50px;
     color: #FDF200;
     text-shadow: #eb0012 1px 5px 0px;
     -webkit-text-stroke-width: 3px;
@@ -458,7 +462,7 @@ h1 {
 }
 
 .endereco img {
-    height: 400px;
+    height: 300px;
     margin-top: 40px;
     border-radius: 10px;
     box-shadow: -10px 5px 10px black ;
@@ -480,4 +484,10 @@ footer p {
     color: var(--bege);
     padding-bottom: 40px;
     font-family: "boku no hero";
+}
+
+/*Efeito*/
+
+.txt-topo, .img-topo {
+    visibility: hidden;
 }

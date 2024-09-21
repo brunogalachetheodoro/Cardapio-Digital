@@ -17,3 +17,20 @@ if (window.matchMedia("(max-width: 768px)").matches) {
     });
 }
 
+// efeito reveal
+
+window.revelar = ScrollReveal({reset:true})
+
+//topo
+
+revelar.reveal('.txt-topo', 
+    {
+        duration: 2000,
+        distance: '90px'
+    })
+
+revelar.reveal ('.img-topo', {
+    duration: 2000,
+    distance: '90px',
+    origin: 'top',
+})
