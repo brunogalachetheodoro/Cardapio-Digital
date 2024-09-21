@@ -27,6 +27,7 @@ html {
     float: left;
     top: 85%;
     filter: drop-shadow(10px 5px 5px black);
+    z-index: 10;
 }
 
 .responsivo {
