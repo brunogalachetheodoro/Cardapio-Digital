@@ -44,5 +44,17 @@ revelar.reveal ('.titulos-efeito', {
 revelar.reveal ('.estilo-img-wpp', {
     duration: 2000,
     distance: '90px',
+    origin: 'left',
+})
+
+revelar.reveal ('.padrao-bege', {
+    duration: 2000,
+    distance: '90px',
+    origin: 'bottom',
+})
+
+revelar.reveal ('.padrao-vinho', {
+    duration: 2000,
+    distance: '90px',
     origin: 'bottom',
 })
