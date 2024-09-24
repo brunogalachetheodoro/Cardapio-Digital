@@ -58,3 +58,30 @@ revelar.reveal ('.padrao-vinho', {
     distance: '90px',
     origin: 'bottom',
 })
+
+revelar.reveal ('.end1', {
+    duration: 2000,
+    delay: 500,
+    distance: '90px',
+    origin: 'left',
+})
+
+revelar.reveal ('.end2', {
+    duration: 2000,
+    delay: 1000,
+    distance: '90px',
+    origin: 'left',
+})
+
+revelar.reveal ('.end3', {
+    duration: 2000,
+    delay: 1500,
+    distance: '90px',
+    origin: 'left',
+})
+
+revelar.reveal ('.endereco-img', {
+    duration: 3000,
+    distance: '40px',
+    origin: 'bottom',
+})
