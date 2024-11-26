@@ -248,32 +248,96 @@ function cliqueHot(){
 
 //Entradas
 
-function cliqueHot(){
-    if(document.getElementById('hot').style.height==='13rem'){
-        document.getElementById('hot').style.height='20rem'
-        document.getElementById('hidden-hot').innerHTML='Salmão grelhado, Farinha panko <br>Cream Cheese, Molho tarê,<br> Cebolinha e Gergelim <br> <span class="estilo-linha-rodizio"> R$35,90</span>'
+function cliqueSunomono(){
+    if(document.getElementById('sunomono').style.height==='13rem'){
+        document.getElementById('sunomono').style.height='20rem'
+        document.getElementById('hidden-sunomono').innerHTML='Salada de pepino japonesa agridoce. <br> <span class="estilo-linha-rodizio"> R$9,90</span>'
     } else {
-        document.getElementById('hot').style.height='13rem'
-        document.getElementById('hidden-hot').innerHTML=''
+        document.getElementById('sunomono').style.height='13rem'
+        document.getElementById('hidden-sunomono').innerHTML=''
+    } 
+}
+
+function cliqueShimeji(){
+    if(document.getElementById('shimeji').style.height==='13rem'){
+        document.getElementById('shimeji').style.height='20rem'
+        document.getElementById('hidden-shimeji').innerHTML='Delicioso prato japonês. <br> Um tipo de cogumelo da Ásia. Quentinho, frito na manteiga, <br> regado com molho shoyu <br> e decorado com muita cebolinha <br> <span class="estilo-linha-rodizio"> R$15,90</span>'
+    } else {
+        document.getElementById('shimeji').style.height='13rem'
+        document.getElementById('hidden-shimeji').innerHTML=''
     }
 }
 
-function cliqueHot(){
-    if(document.getElementById('hot').style.height==='13rem'){
-        document.getElementById('hot').style.height='20rem'
-        document.getElementById('hidden-hot').innerHTML='Salmão grelhado, Farinha panko <br>Cream Cheese, Molho tarê,<br> Cebolinha e Gergelim <br> <span class="estilo-linha-rodizio"> R$35,90</span>'
+function cliqueGuioza(){
+    if(document.getElementById('guioza').style.height==='13rem'){
+        document.getElementById('guioza').style.height='20rem'
+        document.getElementById('hidden-guioza').innerHTML='Pasteis orientais recheados <br> com legumes e <br> carne bovina <br> (frito ou no vapor). <br> <span class="estilo-linha-rodizio"> R$19,90</span> '
     } else {
-        document.getElementById('hot').style.height='13rem'
-        document.getElementById('hidden-hot').innerHTML=''
+        document.getElementById('guioza').style.height='13rem'
+        document.getElementById('hidden-guioza').innerHTML=''
     }
 }
 
-function cliqueHot(){
-    if(document.getElementById('hot').style.height==='13rem'){
-        document.getElementById('hot').style.height='20rem'
-        document.getElementById('hidden-hot').innerHTML='Salmão grelhado, Farinha panko <br>Cream Cheese, Molho tarê,<br> Cebolinha e Gergelim <br> <span class="estilo-linha-rodizio"> R$35,90</span>'
+//pratos quentes
+
+function cliqueCamarao(){
+    if(document.getElementById('camarao').style.height==='13rem'){
+        document.getElementById('camarao').style.height='20rem'
+        document.getElementById('hidden-camarao').innerHTML='Crocante por fora, macio <br>por dentro, nosso camarão <br>empanado é levemente <br>temperado e frito à perfeição, <br> garantindo uma explosão <br>de sabor a cada mordida.! <br> <span class="estilo-linha-rodizio"> R$39,90</span>'
     } else {
-        document.getElementById('hot').style.height='13rem'
-        document.getElementById('hidden-hot').innerHTML=''
+        document.getElementById('camarao').style.height='13rem'
+        document.getElementById('hidden-camarao').innerHTML=''
+    }
+}
+
+function cliqueSalmao(){
+    if(document.getElementById('salmao').style.height==='13rem'){
+        document.getElementById('salmao').style.height='20rem'
+        document.getElementById('hidden-salmao').innerHTML='Salmão fresco, grelhado lentamente <br> para realçar seu sabor natural, <br> com uma textura suculenta <br> e um toque suave de tempero. <br> <span class="estilo-linha-rodizio"> R$39,90</span> '
+    } else {
+        document.getElementById('salmao').style.height='13rem'
+        document.getElementById('hidden-salmao').innerHTML=''
+    }
+}
+
+function cliqueHarumaki(){
+    if(document.getElementById('harumaki').style.height==='13rem'){
+        document.getElementById('harumaki').style.height='20rem'
+        document.getElementById('hidden-harumaki').innerHTML='Tradicional rolinho primavera <br> japonês, recheado com vegetais <br>frescos e crocantes. <br> <span class="estilo-linha-rodizio"> R$25,90</span> '
+    } else {
+        document.getElementById('harumaki').style.height='13rem'
+        document.getElementById('hidden-harumaki').innerHTML=''
+    }
+}
+
+//bebidas
+
+function cliqueAgua(){
+    if(document.getElementById('agua').style.height==='13rem'){
+        document.getElementById('agua').style.height='20rem'
+        document.getElementById('hidden-agua').innerHTML='• Com Gás <br>• Sem Gás <br> <span class="estilo-linha-rodizio"> R$5,90</span>'
+    } else {
+        document.getElementById('agua').style.height='13rem'
+        document.getElementById('hidden-agua').innerHTML=''
+    }
+}
+
+function cliqueRefri(){
+    if(document.getElementById('refri').style.height==='13rem'){
+        document.getElementById('refri').style.height='20rem'
+        document.getElementById('hidden-refri').innerHTML='• Coca-Cola (Tradicional ou Zero) <br> • Fanta (Laranja ou Uva)<br> • Sprite<br> • Guaraná<br> • Pepsi Twist <br> <span class="estilo-linha-rodizio"> R$8,90</span>'
+    } else {
+        document.getElementById('refri').style.height='13rem'
+        document.getElementById('hidden-refri').innerHTML=''
+    }
+}
+
+function cliqueSuco(){
+    if(document.getElementById('suco').style.height==='13rem'){
+        document.getElementById('suco').style.height='20rem'
+        document.getElementById('hidden-suco').innerHTML='• Laranja <br> • Limão<br> • Maracujá<br> • Abacaxi com Hortelã<br> • Morango <br> <span class="estilo-linha-rodizio"> R$15,90</span>'
+    } else {
+        document.getElementById('suco').style.height='13rem'
+        document.getElementById('hidden-suco').innerHTML=''
     }
 }
