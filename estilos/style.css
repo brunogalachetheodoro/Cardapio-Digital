@@ -182,13 +182,19 @@ h1 {
     align-items: center;
     margin-bottom: 100px;
     color: var(--vinho);
+    cursor: pointer;
 }
 
+/*
 .padrao-bege:hover {
     height: 20rem;
     transition: 0.7s;
-}
+} */
 
+.bege-clique {
+    height: 20rem;
+}
+/*
 .hidden-p {
     font-size: 0px;
     position: absolute;
@@ -197,13 +203,14 @@ h1 {
     line-height: 14px;
     margin-top: 10px;
 }
+*/
 
-.hidden-p:hover {
+.hidden-p {
     font-size: 12px;
     height: 7rem;
-    padding-top: 200px;
+    padding-top: 210px;
+    position: absolute;
     transition: 0.7s;
-    visibility: visible;
 }
 
 .estilo-linha-rodizio {
@@ -268,12 +275,15 @@ h1 {
     align-items: center;
     margin-bottom: 100px;
     color: var(--bege);
+    cursor: pointer;
 }
 
+/*
 .padrao-vinho:hover {
     height: 20rem;
     transition: 0.7s;
 }
+*/
 
 .img-padrao-bege {
     height: 150px;

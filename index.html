@@ -53,25 +53,26 @@
         <section class="vinho" id="rodizio">
             <h2 class="titulos-efeito">RODÍZIO EM CASA</h2>
             <div class="responsivo">
-                <div class="padrao-bege"><div class="img-padrao-vinho" id="img-individual">
-                </div class="ajuste-texto">
-                <h3>INDIVIDUAL</h3>
-                <p class="ver-mais">ver mais <span class="material-symbols-outlined">
-                    arrow_drop_down
-                    </span></p>
-                <p class="hidden-p"> 1 Entrada Fria + 1 Entrada Quente <br> + Prato Principal Frio + <br> Prato Principal Quente <br> + Temaki + Bebida + Sobremesa <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$149,90</span></p>
-                </div>
-                <div class="padrao-bege"><div class="img-padrao-vinho" id="img-casal"></div><h3>CASAL</h3>
-                <p class="ver-mais">ver mais <span class="material-symbols-outlined">
-                    arrow_drop_down
-                    </span></p>
-                <p class="hidden-p"> 2 Entradas Frias + 2 Entradas Quentes <br> + 2 Pratos Principais Frios <br> + 2 Pratos Principais Quentes <br> + 2 Temakis + Bebida + Sobremesa <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$229,90</span></p>
-                </div>
-                <div class="padrao-bege"><div class="img-padrao-vinho" id="img-familia"></div><h3>FAMÍLIA</h3>
+                <div class="padrao-bege" id="individual" onclick="cliqueIndividual()"><div class="img-padrao-vinho" id="img-individual">
+                    </div class="ajuste-texto">
+                    <h3>INDIVIDUAL</h3>
                     <p class="ver-mais">ver mais <span class="material-symbols-outlined">
-                    arrow_drop_down
+                        arrow_drop_down
                     </span></p>
-                    <p class="hidden-p"> 4 Entradas Frias + 4 Entradas Quentes <br> + 4 Pratos Principais Frios <br> + 4 Pratos Principais Quentes <br> + 4 Temakis + Bebida + Sobremesa <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$299,90</span></p></div>
+                    <div class="hidden-p" id="hidden-individual"></div>
+                </div>
+                <div class="padrao-bege" id="casal" onclick="cliqueCasal()"><div class="img-padrao-vinho" id="img-casal"></div><h3>CASAL</h3>
+                    <p class="ver-mais">ver mais <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></p>
+                    <div class="hidden-p" id="hidden-casal"></div>
+                </div>
+                <div class="padrao-bege" id="familia" onclick="cliqueFamilia()"><div class="img-padrao-vinho" id="img-familia"></div><h3>FAMÍLIA</h3>
+                    <p class="ver-mais">ver mais <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></p>
+                    <div class="hidden-p" id="hidden-familia"></div>
+                </div>
             </div>
         </section>
 
@@ -80,34 +81,34 @@
         <section class="bege">
             <h2 class="titulos-efeito">COMBINADOS</h2>
             <div class="responsivo">
-                <div class="padrao-vinho padrao-combinado"><div class="img-padrao-bege" id="img-all-might"></div><h3>ALL MIGHT</h3>
+                <div class="padrao-vinho padrao-combinado" id="all-might" onclick="cliqueAllMight()"><div class="img-padrao-bege" id="img-all-might"></div><h3>ALL MIGHT</h3>
                 <p class="ver-mais">ver mais <span class="material-symbols-outlined">
                     arrow_drop_down
                     </span></p>
                 <p class="hidden-p"><span class="estilo-linha-combinado">Tudo Posso.</span> <br> Com esse combinado você pode tudo. Diversas opções para vários tipos de gosto. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$129,90</span></p></div>
-                <div class="padrao-vinho padrao-combinado"><div class="img-padrao-bege" id="img-midoriya"></div><h3>MIDORIYA</h3>
+                <div class="padrao-vinho padrao-combinado" id="midoriya" onclick="cliqueMidoriya()"><div class="img-padrao-bege" id="img-midoriya"></div><h3>MIDORIYA</h3>
                 <p class="ver-mais">ver mais <span class="material-symbols-outlined">
                     arrow_drop_down
                     </span></p>
                 <p class="hidden-p"><span class="estilo-linha-combinado">Nosso Protagonista.</span> <br> Impossível você não gostar desse combinado frito com Temaki. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$139,90</span></p></div>
-                <div class="padrao-vinho padrao-combinado"><div class="img-padrao-bege" id="img-todoroki"></div><h3>TODOROKI</h3>
+                <div class="padrao-vinho padrao-combinado" id="todoroki" onclick="cliqueTodoroki()"><div class="img-padrao-bege" id="img-todoroki"></div><h3>TODOROKI</h3>
                 <p class="ver-mais">ver mais <span class="material-symbols-outlined">
                     arrow_drop_down
                     </span></p>
                 <p class="hidden-p"><span class="estilo-linha-combinado">Meio Quente. Meio Frio.</span> <br> Opções de crus e fritos no mesmo combinado. Para você que não deixa passar nada. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$109,90</span></p></div>
             </div>
             <div class="responsivo">
-                <div class="padrao-vinho"><div class="img-padrao-bege" id="img-bakugo"></div><h3>BAKUGO</h3>
+                <div class="padrao-vinho" id="bakugo" onclick="cliqueBakugo()"><div class="img-padrao-bege" id="img-bakugo"></div><h3>BAKUGO</h3>
                 <p class="ver-mais">ver mais <span class="material-symbols-outlined">
                     arrow_drop_down
                     </span></p>
                 <p class="hidden-p"><span class="estilo-linha-combinado">Uma Explosão de Sabor em Cada Mordida.</span> <br> Os melhores hot holls em um só combinado. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$139,90</span></p></div>
-                <div class="padrao-vinho"><div class="img-padrao-bege" id="img-uraraka"></div><h3>URARAKA</h3>
+                <div class="padrao-vinho" id="uraraka" onclick="cliqueUraraka()"><div class="img-padrao-bege" id="img-uraraka"></div><h3>URARAKA</h3>
                 <p class="ver-mais">ver mais <span class="material-symbols-outlined">
                     arrow_drop_down
                     </span></p>
                 <p class="hidden-p"><span class="estilo-linha-combinado">Sinta-se Leve Com Esse Sabor.</span> <br> As melhores opções para adoçar sua noite. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$129,90</span></p></div>
-                <div class="padrao-vinho"><div class="img-padrao-bege" id="img-mirio"></div><h3>MIRIO</h3>
+                <div class="padrao-vinho" id="mirio" onclick="cliqueMirio()"><div class="img-padrao-bege" id="img-mirio"></div><h3>MIRIO</h3>
                 <p class="ver-mais">ver mais <span class="material-symbols-outlined">
                     arrow_drop_down
                     </span></p>

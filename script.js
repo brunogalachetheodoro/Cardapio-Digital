@@ -85,3 +85,47 @@ revelar.reveal ('.endereco-img', {
     distance: '40px',
     origin: 'bottom',
 })
+
+//Efeito clique cardápio
+
+//Rodizio
+
+function cliqueIndividual() {
+    if(document.getElementById('individual').style.height === '13rem') {
+        document.getElementById('individual').style.height = '20rem'
+        document.getElementById('hidden-individual').innerHTML='1 Entrada Fria + 1 Entrada Quente <br> + Prato Principal Frio + <br> Prato Principal Quente <br> + Temaki + Bebida + Sobremesa <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$149,90</span>'
+    } else {
+        document.getElementById('individual').style.height = '13rem'
+        document.getElementById('hidden-individual').innerHTML = ''
+    }
+}
+
+function cliqueCasal() {
+    if(document.getElementById('casal').style.height === '13rem') {
+        document.getElementById('casal').style.height = '20rem'
+        document.getElementById('hidden-casal').innerHTML='2 Entradas Frias + 2 Entradas Quentes <br> + 2 Pratos Principais Frios <br> + 2 Pratos Principais Quentes <br> + 2 Temakis + Bebida + Sobremesa <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$229,90</span>'
+    } else {
+        document.getElementById('casal').style.height ='13rem'
+        document.getElementById('hidden-casal').innerHTML=''
+    }
+}
+
+function cliqueFamilia() {
+    if(document.getElementById('familia').style.height==='13rem') {
+        document.getElementById('familia').style.height='20rem'
+        document.getElementById('hidden-familia').innerHTML='4 Entradas Frias + 4 Entradas Quentes <br> + 4 Pratos Principais Frios <br> + 4 Pratos Principais Quentes <br> + 4 Temakis + Bebida + Sobremesa <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$299,90</span>'
+    } else {
+        document.getElementById('familia').style.height='13rem'
+        document.getElementById('hidden-familia').innerHTML=''
+    }
+}
+
+//Combinado
+
+function cliqueAllMight() {
+    if(document.getElementById('all-might').style.height==='13rem') {
+        document.getElementById('all-might').style.height='20rem'
+    } else {
+        document.getElementById('all-might').style.height='13rem'
+    }
+}
