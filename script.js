@@ -125,7 +125,155 @@ function cliqueFamilia() {
 function cliqueAllMight() {
     if(document.getElementById('all-might').style.height==='13rem') {
         document.getElementById('all-might').style.height='20rem'
+        document.getElementById('hidden-all-might').innerHTML='Tudo Posso.</span> <br> Com esse combinado você pode tudo. Diversas opções para vários tipos de gosto. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$129,90</span>'
     } else {
         document.getElementById('all-might').style.height='13rem'
+        document.getElementById('hidden-all-might').innerHTML=''
+    }
+}
+
+function cliqueMidoriya(){
+    if(document.getElementById('midoriya').style.height==='13rem'){
+        document.getElementById('midoriya').style.height='20rem'
+        document.getElementById('hidden-midoriya').innerHTML='Nosso Protagonista.</span> <br> Impossível você não gostar desse combinado frito com Temaki. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$139,90</span>'
+    } else {
+        document.getElementById('midoriya').style.height='13rem'
+        document.getElementById('hidden-midoriya').innerHTML=''
+    }
+}
+
+function cliqueTodoroki(){
+    if(document.getElementById('todoroki').style.height==='13rem'){
+        document.getElementById('todoroki').style.height='20rem'
+        document.getElementById('hidden-todoroki').innerHTML='Meio Quente. Meio Frio.</span> <br> Opções de crus e fritos no mesmo combinado. Para você que não deixa passar nada. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$109,90</span>'
+    } else {
+        document.getElementById('todoroki').style.height='13rem'
+        document.getElementById('hidden-todoroki').innerHTML=''
+    }
+}
+
+function cliqueBakugo(){
+    if(document.getElementById('bakugo').style.height==='13rem'){
+        document.getElementById('bakugo').style.height='20rem'
+        document.getElementById('hidden-bakugo').innerHTML='<span class="estilo-linha-combinado">Uma Explosão de Sabor em Cada Mordida.</span> <br> Os melhores hot holls em um só combinado. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$139,90</span>'
+    } else {
+        document.getElementById('bakugo').style.height='13rem'
+        document.getElementById('hidden-bakugo').innerHTML=''
+    }
+}
+
+function cliqueUraraka(){
+    if(document.getElementById('uraraka').style.height==='13rem'){
+        document.getElementById('uraraka').style.height='20rem'
+        document.getElementById('hidden-uraraka').innerHTML='<span class="estilo-linha-combinado">Sinta-se Leve Com Esse Sabor.</span> <br> As melhores opções para adoçar sua noite. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$129,90</span>'
+    } else {
+        document.getElementById('uraraka').style.height='13rem'
+        document.getElementById('hidden-uraraka').innerHTML=''
+    }
+}
+
+function cliqueMirio(){
+    if(document.getElementById('mirio').style.height==='13rem'){
+        document.getElementById('mirio').style.height='20rem'
+        document.getElementById('hidden-mirio').innerHTML='<span class="estilo-linha-combinado">Um Dos Nossos Big Three.</span> <br> Desfrute dessa opção leve de crus. <br> <span class="estilo-linha-rodizio">Consulte Opções no Whatsapp <br> R$129,90</span>'
+    } else {
+        document.getElementById('mirio').style.height='13rem'
+        document.getElementById('hidden-mirio').innerHTML=''
+    }
+}
+
+//Poke
+
+function cliqueMisto(){
+    if(document.getElementById('misto').style.height==='13rem'){
+        document.getElementById('misto').style.height='20rem'
+        document.getElementById('hidden-misto').innerHTML='Salmão cru, Salmão grelhado, <br> Skin, Pepino, Couve crispy, <br> Cream Cheese, Molho tarê. <br> <span class="estilo-linha-rodizio"> R$49,90</span>'
+    } else {
+        document.getElementById('misto').style.height='13rem'
+        document.getElementById('hidden-misto').innerHTML=''
+    }
+}
+
+function cliqueHavaiano(){
+    if(document.getElementById('havaiano').style.height==='13rem'){
+        document.getElementById('havaiano').style.height='20rem'
+        document.getElementById('hidden-havaiano').innerHTML='Salmão cru, Manga, Rabanete, <br> Cenoura, Pepino, <br> Cream Cheese, Molho tarê. <br> <span class="estilo-linha-rodizio"> R$29,90</span>'
+    } else {
+        document.getElementById('havaiano').style.height='13rem'
+        document.getElementById('hidden-havaiano').innerHTML=''
+    }
+}
+
+function cliqueEmpanado(){
+    if(document.getElementById('empanado').style.height==='13rem'){
+        document.getElementById('empanado').style.height='20rem'
+        document.getElementById('hidden-empanado').innerHTML='Salmão empanado, Cebola roxa <br> Repolho, Couve crispy, <br> Cream Cheese, Molho tarê. <br> <span class="estilo-linha-rodizio"> R$39,90</span>'
+    } else {
+        document.getElementById('empanado').style.height='13rem'
+        document.getElementById('hidden-empanado').innerHTML=''
+    }
+}
+
+//Temaki
+
+function cliqueSkin(){
+    if(document.getElementById('skin').style.height==='13rem'){
+        document.getElementById('skin').style.height='20rem'
+        document.getElementById('hidden-skin').innerHTML='Pele de salmão grelhada, <br>Cream Cheese, Molho tarê<br> Cebolinha e Gergelim. <br> <span class="estilo-linha-rodizio"> R$25,90</span>'
+    } else {
+        document.getElementById('skin').style.height='13rem'
+        document.getElementById('hidden-skin').innerHTML=''
+    }
+}
+
+function cliquePhiladelphia(){
+    if(document.getElementById('philadelphia').style.height==='13rem'){
+        document.getElementById('philadelphia').style.height='20rem'
+        document.getElementById('hidden-philadelphia').innerHTML='Salmão cru, <br>Cream Cheese, Cebolinha <br> e Gergelim <br> <span class="estilo-linha-rodizio"> R$29,90</span>'
+    } else {
+        document.getElementById('philadelphia').style.height='13rem'
+        document.getElementById('hidden-philadelphia').innerHTML=''
+    }
+}
+
+function cliqueHot(){
+    if(document.getElementById('hot').style.height==='13rem'){
+        document.getElementById('hot').style.height='20rem'
+        document.getElementById('hidden-hot').innerHTML='Salmão grelhado, Farinha panko <br>Cream Cheese, Molho tarê,<br> Cebolinha e Gergelim <br> <span class="estilo-linha-rodizio"> R$35,90</span>'
+    } else {
+        document.getElementById('hot').style.height='13rem'
+        document.getElementById('hidden-hot').innerHTML=''
+    }
+}
+
+//Entradas
+
+function cliqueHot(){
+    if(document.getElementById('hot').style.height==='13rem'){
+        document.getElementById('hot').style.height='20rem'
+        document.getElementById('hidden-hot').innerHTML='Salmão grelhado, Farinha panko <br>Cream Cheese, Molho tarê,<br> Cebolinha e Gergelim <br> <span class="estilo-linha-rodizio"> R$35,90</span>'
+    } else {
+        document.getElementById('hot').style.height='13rem'
+        document.getElementById('hidden-hot').innerHTML=''
+    }
+}
+
+function cliqueHot(){
+    if(document.getElementById('hot').style.height==='13rem'){
+        document.getElementById('hot').style.height='20rem'
+        document.getElementById('hidden-hot').innerHTML='Salmão grelhado, Farinha panko <br>Cream Cheese, Molho tarê,<br> Cebolinha e Gergelim <br> <span class="estilo-linha-rodizio"> R$35,90</span>'
+    } else {
+        document.getElementById('hot').style.height='13rem'
+        document.getElementById('hidden-hot').innerHTML=''
+    }
+}
+
+function cliqueHot(){
+    if(document.getElementById('hot').style.height==='13rem'){
+        document.getElementById('hot').style.height='20rem'
+        document.getElementById('hidden-hot').innerHTML='Salmão grelhado, Farinha panko <br>Cream Cheese, Molho tarê,<br> Cebolinha e Gergelim <br> <span class="estilo-linha-rodizio"> R$35,90</span>'
+    } else {
+        document.getElementById('hot').style.height='13rem'
+        document.getElementById('hidden-hot').innerHTML=''
     }
 }
