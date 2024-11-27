@@ -341,3 +341,36 @@ function cliqueSuco(){
         document.getElementById('hidden-suco').innerHTML=''
     }
 }
+
+//soobremesa
+
+
+function cliqueIchigo(){
+    if(document.getElementById('ichigo').style.height==='13rem'){
+        document.getElementById('ichigo').style.height='20rem'
+        document.getElementById('hidden-ichigo').innerHTML='Morangos frescos com <br> cream cheese, combinando frescor <br> e suavidade em uma sobremesa <br> leve e saborosa. <br> <span class="estilo-linha-rodizio"> R$18,90</span>'
+    } else {
+        document.getElementById('ichigo').style.height='13rem'
+        document.getElementById('hidden-ichigo').innerHTML=''
+    }
+}
+
+function cliqueBanana(){
+    if(document.getElementById('banana').style.height==='13rem'){
+        document.getElementById('banana').style.height='20rem'
+        document.getElementById('hidden-banana').innerHTML='Banana empanada e frita,<br> servida com Nutella cremosa <br> <span class="estilo-linha-rodizio"> R$18,90</span>'
+    } else {
+        document.getElementById('banana').style.height='13rem'
+        document.getElementById('hidden-banana').innerHTML=''
+    }
+}
+
+function cliqueUramaki(){
+    if(document.getElementById('uramaki').style.height==='13rem'){
+        document.getElementById('uramaki').style.height='20rem'
+        document.getElementById('hidden-uramaki').innerHTML='Morangos frescos envolvidos <br> com arroz e alga e uma<br>  cobertura de Nutella. <br> <span class="estilo-linha-rodizio"> R$18,90</span>'
+    } else {
+        document.getElementById('uramaki').style.height='13rem'
+        document.getElementById('hidden-uramaki').innerHTML=''
+    }
+}
